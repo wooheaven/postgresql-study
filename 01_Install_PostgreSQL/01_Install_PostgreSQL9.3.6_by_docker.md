@@ -7,7 +7,6 @@
 
 # postgresql data folder
 
-
 	$ cd /home/rwoo/02_WorkSpace/04_PostgreSQL/PostgreSQL/
 	$ mkdir -p ./var
 	$ mkdir -p ./var/lib
@@ -42,22 +41,24 @@
 	-----------+------------------------------------------------+-----------
 	myuser    |                                                | {}
 	postgres  | Superuser, Create role, Create DB, Replication | {}
+
+	postgres=# CREATE DATABASE mydatabase WITH OWNER = myuser ENCODING = 'UTF8' ;
+	CREATE DATABASE	
 	
 	postgres=# GRANT ALL privileges ON DATABASE mydatabase TO myuser ;
 	GRANT
 											
 	postgres=# \l
-	List of databases
-	Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
+	                                 List of databases
+	    Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
 	------------+----------+----------+------------+------------+-----------------------
-	mydatabase | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =Tc/postgres         +
-	|          |          |            |            | postgres=CTc/postgres+
-	|          |          |            |            | myuser=CTc/postgres
-	postgres   | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
-	template0  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
-	|          |          |            |            | postgres=CTc/postgres
-	template1  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
-	|          |          |            |            | postgres=CTc/postgres
+	 mydatabase | myuser   | UTF8     | en_US.utf8 | en_US.utf8 | =Tc/myuser           +
+	            |          |          |            |            | myuser=CTc/myuser
+	 postgres   | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
+	 template0  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+	            |          |          |            |            | postgres=CTc/postgres
+	 template1  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+	            |          |          |            |            | postgres=CTc/postgres
 	(4 rows)
 	
 # PostgreSQL9.3.6 stop
