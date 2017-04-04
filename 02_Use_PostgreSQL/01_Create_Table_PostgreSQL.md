@@ -1,4 +1,7 @@
 [ Create Table on PostgreSQL]
+```
+https://www.postgresql.org/docs/9.3/static/sql-createtable.html
+```
 ```{sql}
 mydatabase=> DROP TABLE IF EXISTS myTable ;
 NOTICE:  table "mytable" does not exist, skipping
