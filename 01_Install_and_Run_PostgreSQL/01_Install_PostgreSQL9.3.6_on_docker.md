@@ -1,34 +1,49 @@
-[Install PostgreSQL9.3.6 by docker]
-```{text}
-# docker pull
+# Install PostgreSQL9.3.6 by docker
 
+## docker pull
+```{bash}
 	$ docker pull busybox:latest
 	$ docker pull postgres:9.3.6
+```
 
-# postgresql data folder
-
+## postgresql data folder
+```{bash}
 	$ cd /home/rwoo/02_WorkSpace/04_PostgreSQL/PostgreSQL/
 	$ mkdir -p ./var
 	$ mkdir -p ./var/lib
 	$ mkdir -p ./var/lib/postgresql
 	$ mkdir -p ./var/lib/postgresql/data
+```
 
-# docker DataContainer and Container
+## docker DataContainer and Container
+```{bash}
+	$ pwd
+	/home/rwoo/02_workspace/08_PostgreSQL_Workspace/PostgreSQL
+	
+	$ docker create -v `pwd`/var/lib/postgresql/data:/var/lib/postgresql/data --name postgresql9.3.6-DataContainer busybox:latest
+	efd04289796bd519aa6a2e1160ed95150f5b757f916fca05b9383c83b540bc76
 
-	$ docker create -v /home/rwoo/02_WorkSpace/04_PostgreSQL/PostgreSQL/var/lib/postgresql/data:/var/lib/postgresql/data --name postgres9.3.6-DataContainer busybox:latest
-	fdf5eb0b7614461ee6c9b923ed4607717a6f0833ee905d4ba4608046cd08c948
+	$ docker run --name postgresql9.3.6-Container -p 65432:5432 -e POSTGRES_PASSWORD=123qwe -d --volumes-from postgresql9.3.6-DataContainer postgres:9.3.6
+	b85570693bcb7277f1823b15dc19cd7edf40a10bff4b943c3bb69051bbf0ad34
 
-	$ docker run --name postgres9.3.6-Container -p 5432:5432 -e POSTGRES_PASSWORD=123qwe -d --volumes-from postgres9.3.6-DataContainer postgres:9.3.6
-	75f9476e383d277fa62f7ccc176d790660a7a1cd83d03079e392d68f17ccc30b
+	$ docker ps
+	CONTAINER ID    IMAGE               COMMAND                  CREATED              STATUS                 PORTS                            NAMES
+	b85570693bcb    postgres:9.3.6      "/docker-entrypoin..."   About a minute ago   Up About a minute      0.0.0.0:65432->5432/tcp          postgresql9.3.6-Container
+```
 
-# PostgreSQL9.3.6 start on docker container And Configure database, role, privileges.
+## PostgreSQL9.3.6 start on docker container.
+```{bash}
+	$ docker start postgresql9.3.6-Container 
+	postgresql9.3.6-Container
 
-	$ docker start 75f9476e383d 
-	75f9476e383d
+	$ docker exec -it postgresql9.3.6-Container bash
+	root@b85570693bcb:/# 
+```
 
-	$ docker exec -it postgres9.3.6-Container sh 
-	# psql -h localhost -p 5432 -U postgres
-	Password for user postgres: 
+## Configure database, role, privileges.
+```{sql}
+	root@b85570693bcb:/# psql -h localhost -p 5432 -U postgres
+	
 	psql (9.3.6)
 	Type "help" for help.
 
@@ -60,14 +75,17 @@
 	 template1  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
 	            |          |          |            |            | postgres=CTc/postgres
 	(4 rows)
+```
 	
-# PostgreSQL9.3.6 stop
-
+## PostgreSQL9.3.6 stop
+```{bash}
 	postgres=# \q
 	
 	# exit
 	
-	$ docker stop 75f9476e383d
+	$ docker stop postgresql9.3.6-Container 
+	postgresql9.3.6-Container
+
 	$ docker ps
 	CONTAINER ID	IMAGE	COMMAND 	CREATED 	STATUS 	PORTS 	NAMES
 
