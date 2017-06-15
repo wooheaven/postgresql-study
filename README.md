@@ -15,3 +15,5 @@
 [Use PostgreSQL9.3.6 : regexp_matches](02_Use_PostgreSQL/04_regexp_matches.md)
 
 [Use PostgreSQL9.3.6 : row_number()](02_Use_PostgreSQL/05_row_number().md)
+
+[Use PostgreSQL9.3.6 : COPY table between file](02_Use_PostgreSQL/06_copy_table_and_file.md)
