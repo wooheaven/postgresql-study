@@ -6,17 +6,19 @@
 
 # Use PostgreSQL
 
-[Use PostgreSQL9.3.6 : Create Table](02_Use_PostgreSQL/01_Create_Table.md)
+[Configure Role, Database, Previlege](02_Use_PostgreSQL/01_Configure_Role_Database_Preivilege.md)
 
-[Use PostgreSQL9.3.6 : Insert Into Table](02_Use_PostgreSQL/02_Insert_Into_Table.md)
+[Create Table](02_Use_PostgreSQL/02_Create_Table.md)
 
-[Use PostgreSQL9.3.6 : regexp_split_to_table](02_Use_PostgreSQL/03_regexp_split_to_table.md)
+[Insert Into Table](02_Use_PostgreSQL/03_Insert_Into_Table.md)
 
-[Use PostgreSQL9.3.6 : regexp_matches](02_Use_PostgreSQL/04_regexp_matches.md)
+[regexp_split_to_table](02_Use_PostgreSQL/04_regexp_split_to_table.md)
 
-[Use PostgreSQL9.3.6 : row_number()](02_Use_PostgreSQL/05_row_number().md)
+[regexp_matches](02_Use_PostgreSQL/05_regexp_matches.md)
 
-[Use PostgreSQL9.3.6 : COPY table between file](02_Use_PostgreSQL/06_copy_table_and_file.md)
+[row_number()](02_Use_PostgreSQL/06_row_number.md)
+
+[COPY table between file](02_Use_PostgreSQL/07_copy_table_and_file.md)
 
 # Use ToadPole
 
