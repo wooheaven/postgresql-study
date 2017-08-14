@@ -20,6 +20,8 @@
 
 [COPY table between file](02_Use_PostgreSQL/07_copy_table_and_file.md)
 
+[STRING AGG with ORDER BY](02_Use_PostgreSQL/08_STRING_AGG_ORDER_BY.md)
+
 # Use ToadPole
 
 [Install and Use ToadPole for Postgresql](03_Use_Toad_Pole/01_use_toadpole.md)
