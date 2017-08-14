@@ -22,6 +22,8 @@
 
 [STRING AGG with ORDER BY](02_Use_PostgreSQL/08_STRING_AGG_ORDER_BY.md)
 
+[Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md)
+
 # Use ToadPole
 
 [Install and Use ToadPole for Postgresql](03_Use_Toad_Pole/01_use_toadpole.md)
