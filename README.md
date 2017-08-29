@@ -8,6 +8,7 @@
 | Document | Part1 | Part2 | Part3 | Part4 | Link of Details | 
 |---|---|---|---|---|---|
 | PostgreSQL 9.6.4 Documentation | VIII. Appendixes | Appendix F. Additional Supplied Modules | F.38. tablefunc | F.38.1.4. crosstab(text, text) | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)
+| PostgreSQL 9.6.4 Documentation | II. The SQL Language | Chapter 9. Functions and Operators | 9.4. String Functions and Operators | Table 9-8. SQL String Functions and Operators | [Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md)
 
 [Configure Role, Database, Previlege](02_Use_PostgreSQL/01_Configure_Role_Database_Preivilege.md)
 
@@ -24,8 +25,6 @@
 [COPY table between file](02_Use_PostgreSQL/07_copy_table_and_file.md)
 
 [STRING AGG with ORDER BY](02_Use_PostgreSQL/08_STRING_AGG_ORDER_BY.md)
-
-[Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md)
 
 # Use ToadPole
 
