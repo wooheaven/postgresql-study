@@ -1,7 +1,4 @@
-[ Create Table on PostgreSQL]
-
-PostgreSQL9.3 Document https://www.postgresql.org/docs/9.3/static/sql-createtable.html
-
+# CREATE TABLE
 ```{sql}
 mydatabase=> DROP TABLE IF EXISTS myTable ;
 NOTICE:  table "mytable" does not exist, skipping
@@ -17,3 +14,8 @@ mydatabase=> \d mytable
  num    | integer               | not null
  name   | character varying(40) | 
 ``` 
+
+# ref
+```
+https://www.postgresql.org/docs/current/static/sql-createtable.html
+```

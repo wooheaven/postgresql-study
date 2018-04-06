@@ -5,14 +5,14 @@
 [Run PostgreSQL9.3.6 : on docker](01_Install_and_Run_PostgreSQL/02_Run_PostgreSQL9.3.6_on_docker.md)
 
 # Use PostgreSQL
-| Document | Part1 | Part2 | Part3 | Part4 | Link of Details | 
-|---|---|---|---|---|---|
-| PostgreSQL 9.6.4 Documentation | II. The SQL Language | Chapter 9. Functions and Operators | 9.4. String Functions and Operators | Table 9-8. SQL String Functions and Operators | [Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md)
-| PostgreSQL 9.6.4 Documentation | VIII. Appendixes | Appendix F. Additional Supplied Modules | F.38. tablefunc | F.38.1.4. crosstab(text, text) | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)
+| Document                | Part1                | Part2                          | Part3                               | Part4                                         | Link of Details | 
+|-------------------------|----------------------|--------------------------------|-------------------------------------|-----------------------------------------------|--------------------------------------------------------------------|
+| PostgreSQL current Doc. | II. The SQL Language | 9. Functions and Operators     | 9.4. String Functions and Operators | Table 9-8. SQL String Functions and Operators | [Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md) |
+|                         | VI. Reference        | I. SQL Commands                | CREATE TABLE                        | Example                                       | [CREATE TABLE](02_Use_PostgreSQL/02_Create_Table.md)              |
+|                         |                      |                                | UPDATE                              | Example                                       | [UPDATE rows](02_Use_PostgreSQL/11_update_table.md)                |
+|                         | VIII. Appendixes     | F. Additional Supplied Modules | F.38. tablefunc                     | F.38.1.4. crosstab(text, text)                | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)                 |
 
 [Configure Role, Database, Previlege](02_Use_PostgreSQL/01_Configure_Role_Database_Preivilege.md)
-
-[Create Table](02_Use_PostgreSQL/02_Create_Table.md)
 
 [Insert Into Table](02_Use_PostgreSQL/03_Insert_Into_Table.md)
 
