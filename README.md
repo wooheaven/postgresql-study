@@ -6,11 +6,13 @@
 
 # Use PostgreSQL
 | Document                | Part1                | Part2                          | Part3                               | Part4                                         | Link of Details | 
-|-------------------------|----------------------|--------------------------------|-------------------------------------|-----------------------------------------------|--------------------------------------------------------------------|
-| PostgreSQL current Doc. | II. The SQL Language | 9. Functions and Operators     | 9.4. String Functions and Operators | Table 9-8. SQL String Functions and Operators | [Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md) |
-|                         | VI. Reference        | I. SQL Commands                | CREATE TABLE                        | Example                                       | [CREATE TABLE](02_Use_PostgreSQL/02_Create_Table.md)              |
-|                         |                      |                                | UPDATE                              | Example                                       | [UPDATE rows](02_Use_PostgreSQL/11_update_table.md)                |
-|                         | VIII. Appendixes     | F. Additional Supplied Modules | F.38. tablefunc                     | F.38.1.4. crosstab(text, text)                | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)                 |
+|-------------------------|----------------------|--------------------------------|-------------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------|
+| PostgreSQL current Doc. | II. The SQL Language | 9. Functions and Operators     | 9.4. String Functions and Operators | Table 9-8. SQL String Functions and Operators | [Concatenate Columns](02_Use_PostgreSQL/09_Concatenate_Columns.md)                         |
+|                         |                      |                                | 9.21. Window Functions              | Table 9.57 General-Purpose Window Functions   | [row_number() : add row_number by partition and order](02_Use_PostgreSQL/06_row_number.md) |
+|                         | VI. Reference        | I. SQL Commands                | CREATE TABLE                        | Example                                       | [CREATE TABLE](02_Use_PostgreSQL/02_Create_Table.md)                                       |
+|                         |                      |                                |  DELETE TABLE                       | Example                                       | [DELETE TABLE : delete rows which is duplicated](02_Use_PostgreSQL/12_delete_table.md)     |
+|                         |                      |                                | UPDATE                              | Example                                       | [UPDATE rows](02_Use_PostgreSQL/11_update_table.md)                                        |
+|                         | VIII. Appendixes     | F. Additional Supplied Modules | F.38. tablefunc                     | F.38.1.4. crosstab(text, text)                | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)                                         |
 
 [Configure Role, Database, Previlege](02_Use_PostgreSQL/01_Configure_Role_Database_Preivilege.md)
 
@@ -19,8 +21,6 @@
 [regexp_split_to_table](02_Use_PostgreSQL/04_regexp_split_to_table.md)
 
 [regexp_matches](02_Use_PostgreSQL/05_regexp_matches.md)
-
-[row_number()](02_Use_PostgreSQL/06_row_number.md)
 
 [COPY table between file](02_Use_PostgreSQL/07_copy_table_and_file.md)
 
