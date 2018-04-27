@@ -1,6 +1,6 @@
 [ row_number() on PostgreSQL]
 
-PostgreSQL9.3 Document https://www.postgresql.org/docs/9.3/static/functions-window.html
+PostgreSQL current Document https://www.postgresql.org/docs/current/static/functions-window.html
 
 ```{sql}
 mydatabase=> DROP TABLE IF EXISTS team_a_b ;
