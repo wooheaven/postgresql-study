@@ -1,6 +1,6 @@
 [ Concatenate Columns on PostgresQL ]
 
-PostgreSQL9.3 Document https://www.postgresql.org/docs/9.3/static/functions-string.html
+PostgreSQL9.3 Document : [Table 9.8. SQL String Functions and Operators] in https://www.postgresql.org/docs/9.3/static/functions-string.html
 
 ```{sql}
 mydatabase=> CREATE TABLE t (
