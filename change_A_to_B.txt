@@ -1,0 +1,2 @@
+02_Use_PostgreSQL/current/2/08/01/4/01_add_column_as_serial_to_prevent_duplication.md -> 02_Use_PostgreSQL/current/II/08/01/4/01_add_column_as_serial_to_prevent_duplication.md
+02_Use_PostgreSQL/09_Concatenate_Columns.md -> 02_Use_PostgreSQL/current/II/09/4/09_Concatenate_Columns.md
