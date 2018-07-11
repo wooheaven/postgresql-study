@@ -5,8 +5,7 @@
 # Use PostgreSQL
 | Document           | Part                      | Chapter                        | Head1                               | Head2                                         | Link of Details                                                                        |
 |--------------------|---------------------------|--------------------------------|-------------------------------------|-----------------------------------------------|----------------------------------------------------------------------------------------|
-|                    | VI. Reference             | I. SQL Commands                | CREATE TABLE                        | Example                                       | [CREATE TABLE](02_Use_PostgreSQL/02_Create_Table.md)                                   |
-|                    |                           |                                | DELETE TABLE                        | Example                                       | [DELETE TABLE : delete rows which is duplicated](02_Use_PostgreSQL/12_delete_table.md) |
+|                    | VI. Reference             | I. SQL Commands                | DELETE TABLE                        | Example                                       | [DELETE TABLE : delete rows which is duplicated](02_Use_PostgreSQL/12_delete_table.md) |
 |                    |                           |                                | UPDATE                              | Example                                       | [UPDATE rows](02_Use_PostgreSQL/11_update_table.md)                                    |
 |                    | VIII. Appendixes          | F. Additional Supplied Modules | F.38. tablefunc                     | F.38.1.4. crosstab(text, text)                | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)                                     |
 
@@ -16,7 +15,8 @@
 | Add column as SERIAL in order to prevent Duplication | II.8.1.4. Serial Types                 | [SERIAL Types : Use-Case-01](02_Use_PostgreSQL/current/02_II/08/01/4/01_add_column_as_serial_to_prevent_duplication.md)             |
 | Add row_number() by partition and order              | II.9.21. Window Functions              | [row_number() : Use-Case-01](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)                                                |
 | Concatenate columns                                  | II.9.4. String Functions and Operators | [String concatenation : Use-Case-01](02_Use_PostgreSQL/current/02_II/09/4/09_Concatenate_Columns.md)                                |
-| Import MySQL sakila sample dataset to table          | VI. PostgreSQL Client Applications     | [pg_restore : Use-Case-01](02_Use_PostgreSQL/current/06_VI/02_II/pg_restore/01_Import_MySQL_sakila_sample_dataset_to_PostgreSQL.md) |
+| CREATE TABLE                                         | VI.SQL Commands                        | [CREATE TABLE](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)                                                |
+| Import MySQL sakila sample dataset to table          | VI.PostgreSQL Client Applications      | [pg_restore : Use-Case-01](02_Use_PostgreSQL/current/06_VI/02_II/pg_restore/01_Import_MySQL_sakila_sample_dataset_to_PostgreSQL.md) |
 
 # Documents
 [PostgreSQL current Documentation](https://www.postgresql.org/docs/current/static/index.html)  
@@ -29,6 +29,8 @@
 &ensp;│&ensp;│&ensp;├─9.4. [String Functions and Operators](https://www.postgresql.org/docs/current/static/functions-string.html)  
 &ensp;│&ensp;│&ensp;└─9.21. [Window Functions](https://www.postgresql.org/docs/current/static/functions-window.html)  
 &ensp;├─VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
+&ensp;│&ensp;├─I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
+&ensp;│&ensp;│&ensp;└─[CREATE TABLE](https://www.postgresql.org/docs/current/static/sql-createtable.html)  
 &ensp;│&ensp;└─II. [PostgreSQL Client Applications](https://www.postgresql.org/docs/current/static/reference-client.html)  
 &ensp;│&ensp;&emsp;└─15. [pg_restore](https://www.postgresql.org/docs/current/static/app-pgrestore.html)  
 

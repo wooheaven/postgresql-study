@@ -1,1 +1,1 @@
-02_Use_PostgreSQL/06_row_number.md -> 02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md
+02_Use_PostgreSQL/02_Create_Table.md -> 02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md
