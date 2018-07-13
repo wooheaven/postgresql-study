@@ -1,1 +1,1 @@
-02_Use_PostgreSQL/02_Create_Table.md -> 02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md
+02_Use_PostgreSQL/12_delete_table.md -> 02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md
