@@ -10,8 +10,6 @@
 # Use Case of PostgreSQL
 | Use Case                                             | Reference Section                      | Keyword and Link                                                                                                                    |
 |------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Concatenate columns                                  | II.9.4. String Functions and Operators | [String concatenation : Use-Case-01](02_Use_PostgreSQL/current/02_II/09/4/09_Concatenate_Columns.md)                                |
-| CREATE TABLE                                         | VI.SQL Commands                        | [CREATE TABLE](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)                                                |
 | DELETE duplicated Rows                               | VI.SQL Commands                        | [DELETE TABLE: Use-Case-01](02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md)                               | 
 | UPDATE rows of TABLE                                 | VI.SQL Commands                        | [UPDATE : Use-Case-01](02_Use_PostgreSQL/current/06_VI/01_I/UPDATE/01_update_table.md)                                              |
 | Import MySQL sakila sample dataset to table          | VI.PostgreSQL Client Applications      | [pg_restore : Use-Case-01](02_Use_PostgreSQL/current/06_VI/02_II/pg_restore/01_Import_MySQL_sakila_sample_dataset_to_PostgreSQL.md) |
@@ -26,15 +24,17 @@ Table of Contents
 ║&ensp; ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═8.1.4.1. [add column id as SERIAL NOT NULL PRIMARY KEY](02_Use_PostgreSQL/current/02_II/08/01/4/01_add_column_as_serial_to_prevent_duplication.md)  
 ║&ensp; ╚═9. [Functions and Operators](https://www.postgresql.org/docs/current/static/functions.html)  
 ║&ensp; &ensp; &ensp; ╠═9.4. [String Functions and Operators](https://www.postgresql.org/docs/current/static/functions-string.html)  
+║&ensp; &ensp; &ensp; ║&ensp; ╚═9.4.1. [String columns concatenation](02_Use_PostgreSQL/current/02_II/09/4/09_Concatenate_Columns.md)  
 ║&ensp; &ensp; &ensp; ╚═9.21. [Window Functions](https://www.postgresql.org/docs/current/static/functions-window.html)  
 ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.21.1. [row_number() by column with partition](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)  
 ╚═VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
 &ensp; &ensp; ╠═I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
 &ensp; &ensp; ║&ensp; ╠═[CREATE TABLE](https://www.postgresql.org/docs/current/static/sql-createtable.html)  
+&ensp; &ensp; ║&ensp; ║&ensp; ╚═[Example CREATE TABLE.sql](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)  
 &ensp; &ensp; ║&ensp; ╠═[DELETE](https://www.postgresql.org/docs/current/static/sql-delete.html)  
 &ensp; &ensp; ║&ensp; ╚═[UPDATE](https://www.postgresql.org/docs/current/static/sql-update.html)  
-&ensp; &ensp; ╚═II. [PostgreSQL Client Applications](https://www.postgresql.org/docs/current/static/reference-client.html)  
-&ensp; &ensp; &ensp; &ensp; ╚═15. [pg_restore](https://www.postgresql.org/docs/current/static/app-pgrestore.html)  
+&ensp; &ensp; ╚═II.[PostgreSQL Client Applications](https://www.postgresql.org/docs/current/static/reference-client.html)  
+&ensp; &ensp; &ensp; &ensp; ╚═15.[pg_restore](https://www.postgresql.org/docs/current/static/app-pgrestore.html)  
 ( ║ ╠ ═ ╚ )
 
 # Not registed Use Case
