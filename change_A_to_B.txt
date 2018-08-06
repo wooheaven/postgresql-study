@@ -1,1 +1,1 @@
-02_Use_PostgreSQL/12_delete_table.md -> 02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md
+02_Use_PostgreSQL/10_Pivot_Table.md -> 02_Use_PostgreSQL/current/08_VIII/F/39/01_Pivot_Table.md

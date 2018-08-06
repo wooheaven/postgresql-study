@@ -37,24 +37,36 @@ mydatabase=> insert into sales values(2008, 1, 1000);
 
 Pivot Table
 ```{sql}
-mydatabase=> select * from crosstab(
-mydatabase=>     'select year, month, qty from sales order by 1',
-mydatabase=>     'select m from generate_series(1,12) m'
-mydatabase=> ) as (
-mydatabase=>     year int,
-mydatabase=>     "Jan" int,
-mydatabase=>     "Feb" int,
-mydatabase=>     "Mar" int,
-mydatabase=>     "Apr" int,
-mydatabase=>     "May" int,
-mydatabase=>     "Jun" int,
-mydatabase=>     "Jul" int,
-mydatabase=>     "Aug" int,
-mydatabase=>     "Sep" int,
-mydatabase=>     "Oct" int,
-mydatabase=>     "Nov" int,
-mydatabase=>     "Dec" int
-mydatabase=> );
+mydatabase=> SELECT * FROM sales ;
+ year | month | qty
+------+-------+------
+ 2007 |     1 | 1000
+ 2007 |     2 | 1500
+ 2007 |     7 |  500
+ 2007 |    11 | 1500
+ 2007 |    12 | 2000
+ 2008 |     1 | 1000
+(6 rows)
+
+mydatabase=> 
+select * from crosstab(
+    'select year, month, qty from sales order by 1',
+    'select m from generate_series(1,12) m'
+ ) as (
+    year int,
+    "Jan" int,
+    "Feb" int,
+    "Mar" int,
+    "Apr" int,
+    "May" int,
+    "Jun" int,
+    "Jul" int,
+    "Aug" int,
+    "Sep" int,
+    "Oct" int,
+    "Nov" int,
+    "Dec" int
+ );
 
  year | Jan  | Feb  | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov  | Dec
 ------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+------+------
@@ -78,18 +90,30 @@ mydatabase=> INSERT INTO cth VALUES('test2','02 March 2003','volts','3.1234');
 
 Pivot Table
 ```{sql}
-mydatabase=> SELECT * FROM crosstab (
-mydatabase=>     'SELECT rowid, rowdt, attribute, val FROM cth ORDER BY 1',
-mydatabase=>     'SELECT DISTINCT attribute FROM cth ORDER BY 1'
-mydatabase=> ) AS (
-mydatabase=>     rowid text,
-mydatabase=>     rowdt timestamp,
-mydatabase=>     temperature int4,
-mydatabase=>     test_result text,
-mydatabase=>     test_startdate timestamp,
-mydatabase=>     volts float8
-mydatabase=> );
+mydatabase=> SELECT * FROM cth ;
+ rowid |        rowdt        |   attribute    |      val
+-------+---------------------+----------------+---------------
+ test1 | 2003-03-01 00:00:00 | temperature    | 42
+ test1 | 2003-03-01 00:00:00 | test_result    | PASS
+ test1 | 2003-03-01 00:00:00 | volts          | 2.6987
+ test2 | 2003-03-02 00:00:00 | temperature    | 53
+ test2 | 2003-03-02 00:00:00 | test_result    | FAIL
+ test2 | 2003-03-02 00:00:00 | test_startdate | 01 March 2003
+ test2 | 2003-03-02 00:00:00 | volts          | 3.1234
+(7 rows)
 
+mydatabase=> 
+SELECT * FROM crosstab (
+    'SELECT rowid, rowdt, attribute, val FROM cth ORDER BY 1',
+    'SELECT DISTINCT attribute FROM cth ORDER BY 1'
+) AS (
+    rowid text,
+    rowdt timestamp,
+    temperature int4,
+    test_result text,
+    test_startdate timestamp,
+    volts float8
+);
  rowid |          rowdt           | temperature | test_result |      test_startdate      | volts
 -------+--------------------------+-------------+-------------+--------------------------+--------
  test1 | Sat Mar 01 00:00:00 2003 |          42 | PASS        |                          | 2.6987
