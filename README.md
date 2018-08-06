@@ -10,8 +10,6 @@
 # Use Case of PostgreSQL
 | Use Case                                             | Reference Section                      | Keyword and Link                                                                                                                    |
 |------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| DELETE duplicated Rows                               | VI.SQL Commands                        | [DELETE TABLE: Use-Case-01](02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md)                               | 
-| UPDATE rows of TABLE                                 | VI.SQL Commands                        | [UPDATE : Use-Case-01](02_Use_PostgreSQL/current/06_VI/01_I/UPDATE/01_update_table.md)                                              |
 | Import MySQL sakila sample dataset to table          | VI.PostgreSQL Client Applications      | [pg_restore : Use-Case-01](02_Use_PostgreSQL/current/06_VI/02_II/pg_restore/01_Import_MySQL_sakila_sample_dataset_to_PostgreSQL.md) |
 
 # Documents
@@ -31,8 +29,10 @@ Table of Contents
 &ensp; &ensp; ╠═I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
 &ensp; &ensp; ║&ensp; ╠═[CREATE TABLE](https://www.postgresql.org/docs/current/static/sql-createtable.html)  
 &ensp; &ensp; ║&ensp; ║&ensp; ╚═[Example CREATE TABLE.sql](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)  
-&ensp; &ensp; ║&ensp; ╠═[DELETE](https://www.postgresql.org/docs/current/static/sql-delete.html)  
+&ensp; &ensp; ║&ensp; ╠═[DELETE TABLE](https://www.postgresql.org/docs/current/static/sql-delete.html)  
+&ensp; &ensp; ║&ensp; ║&ensp; ╚═[Delete duplicated rows.sql](02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md)   
 &ensp; &ensp; ║&ensp; ╚═[UPDATE](https://www.postgresql.org/docs/current/static/sql-update.html)  
+&ensp; &ensp; ║&ensp; &ensp; &ensp; ╚═[Update rows.sql](02_Use_PostgreSQL/current/06_VI/01_I/UPDATE/01_update_table.md)  
 &ensp; &ensp; ╚═II.[PostgreSQL Client Applications](https://www.postgresql.org/docs/current/static/reference-client.html)  
 &ensp; &ensp; &ensp; &ensp; ╚═15.[pg_restore](https://www.postgresql.org/docs/current/static/app-pgrestore.html)  
 ( ║ ╠ ═ ╚ )
