@@ -7,11 +7,6 @@
 |------------------|--------------------------------|-----------------|--------------------------------|-----------------------------------------------------|
 | VIII. Appendixes | F. Additional Supplied Modules | F.38. tablefunc | F.38.1.4. crosstab(text, text) | [Pivot Table](02_Use_PostgreSQL/10_Pivot_Table.md)  |
 
-# Use Case of PostgreSQL
-| Use Case                                             | Reference Section                      | Keyword and Link                                                                                                                    |
-|------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Import MySQL sakila sample dataset to table          | VI.PostgreSQL Client Applications      | [pg_restore : Use-Case-01](02_Use_PostgreSQL/current/06_VI/02_II/pg_restore/01_Import_MySQL_sakila_sample_dataset_to_PostgreSQL.md) |
-
 # Documents
 [PostgreSQL current Documentation](https://www.postgresql.org/docs/current/static/index.html)  
 Table of Contents  
@@ -34,7 +29,8 @@ Table of Contents
 &ensp; &ensp; ║&ensp; ╚═[UPDATE](https://www.postgresql.org/docs/current/static/sql-update.html)  
 &ensp; &ensp; ║&ensp; &ensp; &ensp; ╚═[Update rows.sql](02_Use_PostgreSQL/current/06_VI/01_I/UPDATE/01_update_table.md)  
 &ensp; &ensp; ╚═II.[PostgreSQL Client Applications](https://www.postgresql.org/docs/current/static/reference-client.html)  
-&ensp; &ensp; &ensp; &ensp; ╚═15.[pg_restore](https://www.postgresql.org/docs/current/static/app-pgrestore.html)  
+&ensp; &ensp; &ensp; &ensp; ╚═[pg_restore](https://www.postgresql.org/docs/current/static/app-pgrestore.html)  
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; ╚═[Import MySQL sakila sample dataset file to Postgresql Database.sql](02_Use_PostgreSQL/current/06_VI/02_II/pg_restore/01_Import_MySQL_sakila_sample_dataset_to_PostgreSQL.md)  
 ( ║ ╠ ═ ╚ )
 
 # Not registed Use Case
