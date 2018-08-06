@@ -10,7 +10,6 @@
 # Use Case of PostgreSQL
 | Use Case                                             | Reference Section                      | Keyword and Link                                                                                                                    |
 |------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Add row_number() by partition and order              | II.9.21. Window Functions              | [row_number() : Use-Case-01](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)                                                |
 | Concatenate columns                                  | II.9.4. String Functions and Operators | [String concatenation : Use-Case-01](02_Use_PostgreSQL/current/02_II/09/4/09_Concatenate_Columns.md)                                |
 | CREATE TABLE                                         | VI.SQL Commands                        | [CREATE TABLE](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)                                                |
 | DELETE duplicated Rows                               | VI.SQL Commands                        | [DELETE TABLE: Use-Case-01](02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md)                               | 
@@ -28,6 +27,7 @@ Table of Contents
 ║&ensp; ╚═9. [Functions and Operators](https://www.postgresql.org/docs/current/static/functions.html)  
 ║&ensp; &ensp; &ensp; ╠═9.4. [String Functions and Operators](https://www.postgresql.org/docs/current/static/functions-string.html)  
 ║&ensp; &ensp; &ensp; ╚═9.21. [Window Functions](https://www.postgresql.org/docs/current/static/functions-window.html)  
+║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.21.1. [row_number() by column with partition](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)  
 ╚═VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
 &ensp; &ensp; ╠═I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
 &ensp; &ensp; ║&ensp; ╠═[CREATE TABLE](https://www.postgresql.org/docs/current/static/sql-createtable.html)  
