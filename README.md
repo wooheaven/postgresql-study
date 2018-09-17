@@ -7,9 +7,12 @@
 Table of Contents  
 ╠═II. [The SQL Language](https://www.postgresql.org/docs/current/static/sql.html)  
 ║&ensp; ╠═7. [Queries](https://www.postgresql.org/docs/current/static/queries.html)  
+║&ensp; ║&ensp; ╠═7.2. [Table Expressions](https://www.postgresql.org/docs/10/static/queries-table-expressions.html)  
+║&ensp; ║&ensp; ║&ensp; ╚═7.2.1. [The FROM Clause](https://www.postgresql.org/docs/10/static/queries-table-expressions.html#QUERIES-FROM)    
+║&ensp; ║&ensp; ║&ensp; &ensp; &ensp; ╚═7.2.1.1. [Joind Tables : Examples](02_Use_PostgreSQL/current/02_II/07/2/1/1/01_Joined_Tables_Examples.md)  
 ║&ensp; ║&ensp; ╚═7.8. [WITH Queries](https://www.postgresql.org/docs/current/static/queries-with.html)  
 ║&ensp; ║&ensp; &ensp; &ensp; ╚═7.8.1. [SELECT in WITH](https://www.postgresql.org/docs/current/static/queries-with.html#QUERIES-WITH-SELECT)    
-║&ensp; ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═7.8.1.1. [find path from row to row recursively](02_Use_PostgreSQL/current/02_II/07/8/1/01_find_path_from_row_to_row.md)  
+║&ensp; ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═7.8.1.1. [find recursive path from row to row](02_Use_PostgreSQL/current/02_II/07/8/1/01_find_path_from_row_to_row.md)  
 ║&ensp; ╠═8. [Data Types](https://www.postgresql.org/docs/current/static/datatype.html)  
 ║&ensp; ║&ensp; ╚═8.1. [Numeric Types](https://www.postgresql.org/docs/current/static/datatype-numeric.html)  
 ║&ensp; ║&ensp; &ensp; &ensp; ╚═8.1.4. [Serial Types](https://www.postgresql.org/docs/current/static/datatype-numeric.html#DATATYPE-SERIAL)    
