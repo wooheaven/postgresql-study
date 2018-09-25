@@ -24,6 +24,8 @@ Table of Contents
 ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.21.1. [row_number() by column with partition](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)  
 ╠═VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
 ║&ensp; ╠═I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
+║&ensp; ║&ensp; ╠═[CREATE ROLE](https://www.postgresql.org/docs/current/static/sql-createrole.html)  
+║&ensp; ║&ensp; ║&ensp; ╚═[Example_CREATE_ROlE.sql](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_ROLE/01_Create_Role.md)  
 ║&ensp; ║&ensp; ╠═[CREATE TABLE](https://www.postgresql.org/docs/current/static/sql-createtable.html)  
 ║&ensp; ║&ensp; ║&ensp; ╚═[Example_CREATE_TABLE.sql](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)  
 ║&ensp; ║&ensp; ╠═[DELETE TABLE](https://www.postgresql.org/docs/current/static/sql-delete.html)  
