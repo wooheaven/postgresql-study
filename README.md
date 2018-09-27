@@ -24,6 +24,8 @@ Table of Contents
 ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.21.1. [row_number() by column with partition](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)  
 ╠═VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
 ║&ensp; ╠═I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
+║&ensp; ║&ensp; ╠═[GRANT](https://www.postgresql.org/docs/current/static/sql-createdatabase.html)  
+║&ensp; ║&ensp; ║&ensp; ╚═[Example_GRANT_ALL_privileges](02_Use_PostgreSQL/current/06_VI/01_I/GRANT/01_GRANT_ALL_privileges.md)  
 ║&ensp; ║&ensp; ╠═[CREATE DATABASE](https://www.postgresql.org/docs/current/static/sql-createdatabase.html)  
 ║&ensp; ║&ensp; ║&ensp; ╚═[Example_CREATE_DATABASE](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_DATABASE/01_CREATE_DATABASE.md)  
 ║&ensp; ║&ensp; ╠═[CREATE ROLE](https://www.postgresql.org/docs/current/static/sql-createrole.html)  
@@ -44,8 +46,6 @@ Table of Contents
 ( ║ ╠ ═ ╚ )
 
 # Not registed Use Case
-[Configure Role, Database, Previlege](02_Use_PostgreSQL/01_Configure_Role_Database_Preivilege.md)
-
 [Insert Into Table](02_Use_PostgreSQL/03_Insert_Into_Table.md)
 
 [regexp_split_to_table](02_Use_PostgreSQL/04_regexp_split_to_table.md)
