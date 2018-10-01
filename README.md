@@ -19,7 +19,15 @@ Table of Contents
 ║&ensp; ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═8.1.4.1. [add column id as SERIAL NOT NULL PRIMARY KEY](02_Use_PostgreSQL/current/02_II/08/01/4/01_add_column_as_serial_to_prevent_duplication.md)  
 ║&ensp; ╚═9. [Functions and Operators](https://www.postgresql.org/docs/current/static/functions.html)  
 ║&ensp; &ensp; &ensp; ╠═9.4. [String Functions and Operators](https://www.postgresql.org/docs/current/static/functions-string.html)  
-║&ensp; &ensp; &ensp; ║&ensp; ╚═9.4.1. [String columns concatenation](02_Use_PostgreSQL/current/02_II/09/4/09_Concatenate_Columns.md)  
+║&ensp; &ensp; &ensp; ║&ensp; ╠═9.4.Table_9.8. SQL String Functions and Operators  
+║&ensp; &ensp; &ensp; ║&ensp; ║&ensp; ╚═9.4.Table_9.8.|| [String concatenation : Example](02_Use_PostgreSQL/current/02_II/09/04/Table_9.8./01_string_concatenation.md)  
+║&ensp; &ensp; &ensp; ║&ensp; ╚═9.4.Table_9.9. Other String Functions  
+║&ensp; &ensp; &ensp; ║&ensp; &ensp; &ensp; ╠═9.4.Table_9.9.length [Number of characters in string : Example](02_Use_PostgreSQL/current/02_II/09/04/Table_9.9./01_length.md)  
+║&ensp; &ensp; &ensp; ║&ensp; &ensp; &ensp; ╚═9.4.Table_9.9.regexp_replace [Replace substring matching a POSIX regular expression : Example](02_Use_PostgreSQL/current/02_II/09/04/Table_9.9./02_regexp_replace.md)  
+║&ensp; &ensp; &ensp; ╠═9.7. [Pattern Matching](https://www.postgresql.org/docs/current/static/functions-matching.html)  
+║&ensp; &ensp; &ensp; ║&ensp; ╚═9.7.3. [POSIX Regular Expressions](https://www.postgresql.org/docs/current/static/functions-matching.html#FUNCTIONS-POSIX-REGEXP)  
+║&ensp; &ensp; &ensp; ║&ensp; &ensp; &ensp; ╚═9.7.3.2 [Bracket Expressions](https://www.postgresql.org/docs/current/static/functions-matching.html#POSIX-BRACKET-EXPRESSIONS)  
+║&ensp; &ensp; &ensp; ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.7.3.2.1 [Bracket Expressions : Examples](02_Use_PostgreSQL/current/02_II/09/07/01_Bracket_Expressions.md)  
 ║&ensp; &ensp; &ensp; ╚═9.21. [Window Functions](https://www.postgresql.org/docs/current/static/functions-window.html)  
 ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.21.1. [row_number() by column with partition](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)  
 ╠═VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
