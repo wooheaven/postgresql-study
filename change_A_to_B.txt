@@ -1,1 +1,1 @@
-02_Use_PostgreSQL/10_Pivot_Table.md -> 02_Use_PostgreSQL/current/08_VIII/F/39/01_Pivot_Table.md
+02_Use_PostgreSQL/current/02_II/09/4/09_Concatenate_Columns.md -> 02_Use_PostgreSQL/current/02_II/09/04/01_String_concatenation.md
