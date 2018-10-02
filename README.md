@@ -30,6 +30,10 @@ Table of Contents
 ║&ensp; &ensp; &ensp; ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.7.3.2.1 [Bracket Expressions : Examples](02_Use_PostgreSQL/current/02_II/09/07/01_Bracket_Expressions.md)  
 ║&ensp; &ensp; &ensp; ╚═9.21. [Window Functions](https://www.postgresql.org/docs/current/static/functions-window.html)  
 ║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═9.21.1. [row_number() by column with partition](02_Use_PostgreSQL/current/02_II/09/21/06_row_number.md)  
+╠═III. [Server Administration](https://www.postgresql.org/docs/current/static/admin.html)  
+║&ensp; ╚═19. [Server Configuration](https://www.postgresql.org/docs/current/static/runtime-config.html)  
+║&ensp; &ensp; &ensp; ╚═19.8. [Error Reporting and Logging](https://www.postgresql.org/docs/current/static/runtime-config-logging.html)  
+║&ensp; &ensp; &ensp; &ensp; &ensp; ╚═[Example : configure postgresql.conf for query Logging](02_Use_PostgreSQL/current/03_III/19/08/01_configure_postgresql_conf_file.md)  
 ╠═VI. [Reference](https://www.postgresql.org/docs/current/static/reference.html)  
 ║&ensp; ╠═I. [SQL Commands](https://www.postgresql.org/docs/current/static/sql-commands.html)  
 ║&ensp; ║&ensp; ╠═[GRANT](https://www.postgresql.org/docs/current/static/sql-createdatabase.html)  
@@ -51,7 +55,7 @@ Table of Contents
 &ensp; &ensp; ╚═F. [Additional Supplied Modules](https://www.postgresql.org/docs/current/static/contrib.html)  
 &ensp; &ensp; &ensp; &ensp; ╚═F.39 [tablefunc](https://www.postgresql.org/docs/current/static/tablefunc.html)  
 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; ╚═F.39.1.4 [crosstab : Pivot_Table.sql](02_Use_PostgreSQL/current/08_VIII/F/39/01_Pivot_Table.md)  
-( ║ ╠ ═ ╚ )
+( ║ ╠ ═ ╚ )  
 
 # Not registed Use Case
 [Insert Into Table](02_Use_PostgreSQL/03_Insert_Into_Table.md)
