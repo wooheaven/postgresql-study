@@ -46,6 +46,8 @@ Table of Contents
 ║&ensp; ║&ensp; ║&ensp; ╚═[Example_CREATE_TABLE](02_Use_PostgreSQL/current/06_VI/01_I/CREATE_TABLE/02_Create_Table.md)  
 ║&ensp; ║&ensp; ╠═[DELETE TABLE](https://www.postgresql.org/docs/current/static/sql-delete.html)  
 ║&ensp; ║&ensp; ║&ensp; ╚═[Example DELETE_duplicated_rows](02_Use_PostgreSQL/current/06_VI/01_I/DELETE/01_delete_duplicated_rows.md)   
+║&ensp; ║&ensp; ╠═[INSERT INTO TABLE](https://www.postgresql.org/docs/current/static/sql-insert.html)  
+║&ensp; ║&ensp; ║&ensp; ╚═[Example INSERT INTO TABLE with a row](02_Use_PostgreSQL/current/06_VI/01_I/INSERT/01_Insert_Into_Table.md)  
 ║&ensp; ║&ensp; ╚═[UPDATE](https://www.postgresql.org/docs/current/static/sql-update.html)  
 ║&ensp; ║&ensp; &ensp; &ensp; ╚═[Example UPDATE_rows](02_Use_PostgreSQL/current/06_VI/01_I/UPDATE/01_update_table.md)  
 ║&ensp; ╚═II.[PostgreSQL Client Applications](https://www.postgresql.org/docs/current/static/reference-client.html)  
@@ -58,8 +60,6 @@ Table of Contents
 ( ║ ╠ ═ ╚ )  
 
 # Not registed Use Case
-[Insert Into Table](02_Use_PostgreSQL/03_Insert_Into_Table.md)
-
 [regexp_split_to_table](02_Use_PostgreSQL/04_regexp_split_to_table.md)
 
 [regexp_matches](02_Use_PostgreSQL/05_regexp_matches.md)
@@ -69,5 +69,4 @@ Table of Contents
 [STRING AGG with ORDER BY](02_Use_PostgreSQL/08_STRING_AGG_ORDER_BY.md)
 
 # Use ToadPole
-
 [Install and Use ToadPole for Postgresql](03_Use_Toad_Pole/01_use_toadpole.md)
