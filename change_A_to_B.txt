@@ -1,1 +1,0 @@
-02_Use_PostgreSQL/03_Insert_Into_Table.md -> 02_Use_PostgreSQL/current/06_VI/01_I/INSERT/01_Insert_Into_Table.md
