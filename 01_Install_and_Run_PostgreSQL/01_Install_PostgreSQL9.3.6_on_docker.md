@@ -40,7 +40,7 @@
 	root@b85570693bcb:/# 
 ```
 
-## Configure roel, database, privileges.
+## Configure role, database, privileges.
 ```{sql}
 	root@b85570693bcb:/# psql -h localhost -p 5432 -U postgres
 	
